@@ -13,6 +13,6 @@ public class RdfTest {
     @Test
     public void test() {
 		Model model = ModelFactory.createDefaultModel().read("data.rdf");
-		assertEquals(true,true);
+		assertEquals(false,true);
     }
 }
